@@ -7,12 +7,6 @@ import { urlPictures } from './services/pixabay-api';
 import Loader from 'react-loader-spinner';
 import './app.css';
 
-// gallery: [{
-// id:
-// webformatURL:
-// largeImageURL:
-// }]
-
 const mapper = pictures => {
   return pictures.map(picture => {
     return {
